@@ -1,0 +1,245 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 2% 4%;
+  margin: 0 0 2% 0;
+  width: 100%;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 8% 0 0 0;
+  width: 100%;
+}
+
+.about-title h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #36454f;
+}
+
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0 0 2% 0;
+}
+
+.about-img-container img {
+  width: 100%;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 2% 0%;
+  margin: 2% 0 4% 0;
+
+  font-weight: 300;
+  font-size: 0.95rem;
+  text-transform: none;
+  line-height: 22px;
+}
+
+.about-description-skillset {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 2% 0;
+}
+
+.about-description-skill,
+.about-description-technology {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 2% 0;
+}
+
+.about-description-skill h3,
+.about-description-technology h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: none;
+
+  color: #495d6a;
+}
+
+.about-skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 2% 0 0 0;
+}
+
+.about-skills-container p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 4%;
+  margin: 0 2% 4% 2%;
+  min-width: 70%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  font-weight: 400;
+  font-size: 0.85rem;
+  text-transform: capitalize;
+
+  background-color: white;
+  color: #36454f;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .about-img-container {
+    width: 60%;
+  }
+
+  .about-description {
+    margin: 2% 0 0 0;
+  }
+
+  .about-skills-container p {
+    min-width: 25%;
+  }
+}
+
+/*tablet*/
+@media only screen and (min-width: 601px) {
+  .about-img-container {
+    width: 50%;
+  }
+  .about-description {
+    margin: 2% 0 0 0;
+  }
+
+  .about-skills-container p {
+    min-width: 20%;
+  }
+}
+
+/*tablet*/
+@media only screen and (min-width: 768px) {
+  .about-container {
+    padding: 2% 5%;
+  }
+
+  .about-skills-container {
+    justify-content: center;
+  }
+
+  .about-skills-container p {
+    min-width: 15%;
+  }
+}
+
+/*large devices, laptops, monitors*/
+@media only screen and (min-width: 992px) {
+  .about-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 2% 10%;
+  }
+
+  .about-title {
+    justify-content: flex-start;
+    padding: 0 10%;
+  }
+
+  .about-title h2 {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .about-img-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 25%;
+  }
+
+  .about-description {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about-description-skillset {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-description-skill,
+  .about-description-technology {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .about-description-skill h3,
+  .about-description-technology h3 {
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .about-skills-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .about-skills-container p {
+    padding: 2% 4%;
+    margin: 0 4% 4% 0;
+    min-width: 30%;
+  }
+}
+
+/*monitors*/
+@media only screen and (min-width: 1200px) {
+  .about-container {
+    padding: 2% 15%;
+  }
+
+  .about-title {
+    padding: 0 15%;
+  }
+}
