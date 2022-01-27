@@ -4,6 +4,7 @@ import { useMediaQuery } from "react-responsive";
 
 import closeIcon from "../../assets/icons/close_icon_24px.svg";
 import menuIcon from "../../assets/icons/menu_icon_24px.svg";
+import personalLogo from "../../assets/icons/personal_logo_black.svg";
 
 const Header = ({
   focusNavBar,
@@ -36,7 +37,7 @@ const Header = ({
         <div ref={focusNavBar} className="nav-bar-container">
           <div className="nav-bar">
             <div className="nav-bar-logo">
-              <h1>MO</h1>
+              <img alt="personal logo" src={personalLogo} />
             </div>
             <div className="nav-links-icon">
               <img
@@ -64,7 +65,9 @@ const Header = ({
       {isGreaterThanMobile && (
         <div ref={focusNavBar} className="nav-bar">
           <div className="nav-bar-logo">
-            <h1>MO</h1>
+            <div className="nav-bar-logo">
+              <img alt="personal logo" src={personalLogo} />
+            </div>{" "}
           </div>
           <nav style={{ borderTop: "none" }}>
             <a onClick={handleFocusAbout}>Info</a>

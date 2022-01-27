@@ -4,13 +4,14 @@ import facebookIcon from "../../assets/icons/facebook_icon_24px.svg";
 import instagramIcon from "../../assets/icons/instagram_icon_24px.svg";
 import linkedinIcon from "../../assets/icons/linkedin_icon_24px.svg";
 import githubIcon from "../../assets/icons/github_icon_24px.svg";
+import personalLogo from "../../assets/icons/personal_logo_white.svg";
 
 const Footer = ({ handleFocusAbout, handleFocusContact, handleFocusWork }) => {
   return (
     <>
       <div className="footer-container">
         <div className="footer-icon">
-          <h2>MO</h2>
+          <img alt="personal logo" src={personalLogo} />
         </div>
         <div className="footer-social-media">
           <img
