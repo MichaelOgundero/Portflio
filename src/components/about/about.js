@@ -15,27 +15,38 @@ const About = ({ focusAbout }) => {
         </div>
         <div className="about-description">
           <p>
-            Hi my name is Michael Ogundero, im a front-end developer and a
-            graphic designer currently studying at the Saskatchewan polytechnic
-            in Regina
+            My name is Michael Ogundero, I'm currently studying Graphic
+            Communications at the Saskatchewan Polytechnic. I also have a
+            bachelors degree in Software Engineering from the Budapest
+            University of Technology and Economics. Scroll down to take a look
+            at some of the individual projects I've completed.
           </p>
           <div className="about-description-skillset">
             <div className="about-description-skill">
               <h3>Skills</h3>
               <div className="about-skills-container">
-                <p>skill 1</p>
-                <p>skill skill skill skill skill</p>
-                <p>skill 3</p>
-                <p>skill 4</p>
+                <p>Programming</p>
+                <p>Photography</p>
+                <p>Print Design</p>
+                <p>Logo Design</p>
+                <p>Image Editing</p>
               </div>
             </div>
             <div className="about-description-technology">
               <h3>Technology</h3>
               <div className="about-skills-container">
-                <p>tech 1</p>
-                <p>tech 2</p>
-                <p>tech 3</p>
-                <p>tech 4</p>
+                <p>React</p>
+                <p>Node.js</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>Typescript</p>
+                <p>Adobe InDesign</p>
+                <p>Adobe Illustrator</p>
+                <p>Adobe Photoshop</p>
+                <p>Bootstrap</p>
+                <p>MS Office</p>
+                <p>VS Code</p>
               </div>
             </div>
           </div>

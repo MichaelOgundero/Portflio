@@ -206,6 +206,7 @@
   .about-description-skillset {
     flex-direction: row;
     justify-content: space-between;
+    align-items: flex-start;
   }
 
   .about-description-skill,
@@ -217,7 +218,7 @@
   .about-description-skill h3,
   .about-description-technology h3 {
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .about-skills-container {

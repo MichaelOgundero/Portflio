@@ -86,7 +86,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
   width: 80%;
   overflow-x: auto;
   margin: 2% 0;
@@ -95,7 +95,7 @@
 .modal-content-img-additional img {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   width: 100%;
   margin: 0 2% 0 0;
 }
@@ -113,6 +113,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  height: 100%;
 }
 
 .modal-content-description p {
@@ -246,7 +247,7 @@
     width: 70%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .modal-content-img-additional {
@@ -269,7 +270,6 @@
     padding: 0 1%;
     margin: 0 0 0 2.5%;
     align-items: flex-start;
-    overflow: auto;
   }
 
   .modal-content-description p {
@@ -278,6 +278,7 @@
 
   .modal-content-description h2 {
     justify-content: flex-start;
+
     margin: 0 0 10% 0;
   }
 }

@@ -45,22 +45,16 @@ const Modal = ({ status, dataSet, handleModalStatus }) => {
                 </picture>{" "}
                 <div className="modal-content-img-additional">
                   {dataSet.additionalImages?.map((image, index) => {
-                    return <img key={index} width="30%" alt="sd" src={image} />;
+                    return <img key={image} width="30%" alt="sd" src={image} />;
                   })}
                 </div>
               </div>
               <div className="modal-content-description">
                 {dataSet.attributes?.map((data, index) => {
                   return (
-                    <div
-                      key={data}
-                      style={{
-                        padding: "0",
-                        margin: "0",
-                      }}
-                    >
-                      <p>{data.attribute}</p>
-                      <h2> {data.attributeVal}</h2>
+                    <div key={data + index}>
+                      <p key={data}>{data.attribute}</p>
+                      <h2 key={index}> {data.attributeVal}</h2>
                     </div>
                   );
                 })}
@@ -111,18 +105,12 @@ const Modal = ({ status, dataSet, handleModalStatus }) => {
             <div className="modal-content-description">
               {dataSet.attributes?.map((data, index) => {
                 return (
-                  <div
-                    key={data}
-                    style={{
-                      padding: "0",
-                      margin: "0",
-                    }}
-                  >
-                    <p>{data.attribute}</p>
-                    <h2> {data.attributeVal}</h2>
+                  <div key={index + data}>
+                    <p key={data}>{data.attribute}</p>
+                    <h2 key={index}> {data.attributeVal}</h2>
                   </div>
                 );
-              })}{" "}
+              })}
             </div>
           </div>
         </div>

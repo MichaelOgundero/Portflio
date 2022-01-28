@@ -1,6 +1,3 @@
-import exampleImage from "./../assets/images/testImage.jpg";
-import exampleImageDesktop from "./../assets/images/construction.jpg";
-
 import LogoOneA from "./../assets/images/desktop/Logos/LogoOne_A.jpg";
 import LogoOneB from "./../assets/images/desktop/Logos/LogoOne_B.jpg";
 import LogoOneC from "./../assets/images/desktop/Logos/LogoOne_C.jpg";
@@ -71,32 +68,6 @@ let logos = [
   {
     image: LogoThree,
     imageDesktop: LogoThree,
-    attributes: [
-      {
-        attribute: "Software",
-        attributeVal: "Software Val",
-      },
-      {
-        attribute: "Trim Size (Inches)",
-        attributeVal: "Trim Size Val",
-      },
-      {
-        attribute: "Font",
-        attributeVal: "Font Val",
-      },
-      {
-        attribute: "Colors",
-        attributeVal: "Colors Val",
-      },
-      {
-        attribute: "Color Profile",
-        attributeVal: "Color Profile Val",
-      },
-    ],
-  },
-  {
-    image: exampleImage,
-    imageDesktop: exampleImageDesktop,
     attributes: [
       {
         attribute: "Software",
