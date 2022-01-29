@@ -1,6 +1,3 @@
-import exampleImage from "./../assets/images/testImage.jpg";
-import exampleImageDesktop from "./../assets/images/construction.jpg";
-
 import imageOneMobile from "./../assets/images/mobile/Photography/imageOne_Mobile.jpg";
 import imageOneDesktop from "./../assets/images/desktop/Photography/imageOne_Desktop.jpg";
 
