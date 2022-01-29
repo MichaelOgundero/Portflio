@@ -23,7 +23,7 @@ let photos = [
   {
     image: imageOneMobile,
     imageDesktop: imageOneDesktop,
-    imageTitle: "Title",
+    imageTitle: "Image 1",
     imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {
@@ -59,7 +59,7 @@ let photos = [
   {
     image: imageTwoMobile,
     imageDesktop: imageTwoDesktop,
-    imageTitle: "Title",
+    imageTitle: "Image 2",
     imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {
@@ -95,7 +95,7 @@ let photos = [
   {
     image: imageThreeMobile,
     imageDesktop: imageThreeDesktop,
-    imageTitle: "Title",
+    imageTitle: "Image 3",
     imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {
@@ -133,7 +133,7 @@ let photos = [
     imageDesktop: imageFourDesktop,
     additionalImages: [imageFourAMobile, imageFourBMobile],
     additionalImagesDesktop: [imageFourADesktop, imageFourBDesktop],
-    imageTitle: "Title",
+    imageTitle: "Stock Photography Lighting",
     imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {

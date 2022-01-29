@@ -35,7 +35,12 @@ const Modal = ({ status, dataSet, handleModalStatus }) => {
               />
             </div>
             <div className="modal-content-main-body">
-              <div className="modal-content-img-container">
+              <div
+                onClick={() => {
+                  handleOpenInWindow(dataSet.imageDesktop);
+                }}
+                className="modal-content-img-container"
+              >
                 <picture>
                   <source
                     media="(min-width: 992px)"
@@ -45,7 +50,17 @@ const Modal = ({ status, dataSet, handleModalStatus }) => {
                 </picture>{" "}
                 <div className="modal-content-img-additional">
                   {dataSet.additionalImages?.map((image, index) => {
-                    return <img key={image} width="30%" alt="sd" src={image} />;
+                    return (
+                      <img
+                        onClick={() => {
+                          handleOpenInWindow(image);
+                        }}
+                        key={image}
+                        width="30%"
+                        alt="sd"
+                        src={image}
+                      />
+                    );
                   })}
                 </div>
               </div>
@@ -93,7 +108,12 @@ const Modal = ({ status, dataSet, handleModalStatus }) => {
             />
           </div>
           <div className="modal-content-main-body">
-            <div className="modal-content-img-container">
+            <div
+              onClick={() => {
+                handleOpenInWindow(dataSet.imageDesktop);
+              }}
+              className="modal-content-img-container"
+            >
               <picture>
                 <source
                   media="(min-width: 992px)"

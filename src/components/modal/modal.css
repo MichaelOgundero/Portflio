@@ -269,6 +269,10 @@
     margin: 0 0.5% 0 0;
   }
 
+  .modal-content-img-additional img:hover {
+    cursor: pointer;
+  }
+
   .modal-content-main-body img {
     width: 100%;
   }

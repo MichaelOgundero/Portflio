@@ -67,6 +67,7 @@ function App() {
         handleFocusAbout={handleFocusAbout}
         handleFocusContact={handleFocusContact}
         handleFocusWork={handleFocusWork}
+        handleFocusNavBar={handleFocusNavBar}
       />
       <img
         title="Go back to the top"
