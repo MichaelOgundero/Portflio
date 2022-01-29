@@ -41,9 +41,9 @@ const About = ({ focusAbout }) => {
                 <p>CSS</p>
                 <p>Javascript</p>
                 <p>Typescript</p>
-                <p>Adobe InDesign</p>
-                <p>Adobe Illustrator</p>
-                <p>Adobe Photoshop</p>
+                <p>InDesign</p>
+                <p>Illustrator</p>
+                <p>Photoshop</p>
                 <p>Bootstrap</p>
                 <p>MS Office</p>
                 <p>VS Code</p>

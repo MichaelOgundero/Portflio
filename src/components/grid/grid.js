@@ -81,13 +81,8 @@ const Grid = ({ gridNoImage, title, dataSet, focusWork }) => {
               className="grid-container-item"
             >
               <img alt="modal img" src={data.image} />
-              <div
-                style={{ display: "flex" }}
-                className="grid-container-more-info"
-              >
-                <img alt="info" width="" src={infoIcon} />
-                <p>Click for more info</p>
-              </div>
+              <h4>{data.imageSubtitle}</h4>
+              <h2>{data.imageTitle}</h2>
             </div>
           );
         })}

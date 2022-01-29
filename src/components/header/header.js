@@ -65,9 +65,7 @@ const Header = ({
       {isGreaterThanMobile && (
         <div ref={focusNavBar} className="nav-bar">
           <div className="nav-bar-logo">
-            <div className="nav-bar-logo">
-              <img alt="personal logo" src={personalLogo} />
-            </div>{" "}
+            <img alt="personal logo" src={personalLogo} />
           </div>
           <nav style={{ borderTop: "none" }}>
             <a onClick={handleFocusAbout}>Info</a>

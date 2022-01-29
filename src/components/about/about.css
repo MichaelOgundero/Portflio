@@ -228,9 +228,14 @@
   }
 
   .about-skills-container p {
+    /*padding: 2% 4%;
+    margin: 0 4% 4% 0;*/
     padding: 2% 4%;
-    margin: 0 4% 4% 0;
-    min-width: 30%;
+    margin: 0 2% 4% 0%;
+
+    min-width: 25%;
+
+    font-size: 0.8rem;
   }
 }
 

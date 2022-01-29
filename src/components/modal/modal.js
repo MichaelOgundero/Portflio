@@ -52,7 +52,7 @@ const Modal = ({ status, dataSet, handleModalStatus }) => {
               <div className="modal-content-description">
                 {dataSet.attributes?.map((data, index) => {
                   return (
-                    <div key={data + index}>
+                    <div className="modal-content-container" key={data + index}>
                       <p key={data}>{data.attribute}</p>
                       <h2 key={index}> {data.attributeVal}</h2>
                     </div>
@@ -105,7 +105,7 @@ const Modal = ({ status, dataSet, handleModalStatus }) => {
             <div className="modal-content-description">
               {dataSet.attributes?.map((data, index) => {
                 return (
-                  <div key={index + data}>
+                  <div className="modal-content-container" key={data + index}>
                     <p key={data}>{data.attribute}</p>
                     <h2 key={index}> {data.attributeVal}</h2>
                   </div>

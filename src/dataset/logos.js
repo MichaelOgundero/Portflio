@@ -15,26 +15,28 @@ let logos = [
     image: LogoOneA,
     imageDesktop: LogoOneA,
     additionalImages: [LogoOneB, LogoOneC, LogoOneD],
+    imageTitle: "Stickers",
+    imageSubtitle: "Central Hostels",
     attributes: [
       {
         attribute: "Software",
-        attributeVal: "Software Val",
+        attributeVal: "Illustrator",
       },
       {
         attribute: "Trim Size (Inches)",
-        attributeVal: "Trim Size Val",
+        attributeVal: "3'' x 1.37''",
       },
       {
         attribute: "Font",
-        attributeVal: "Font Val",
+        attributeVal: "Rockwell Std",
       },
       {
         attribute: "Colors",
-        attributeVal: "Colors Val",
+        attributeVal: "CMYK, 1 Spot Color (Dieline Plate)",
       },
       {
         attribute: "Color Profile",
-        attributeVal: "Color Profile Val",
+        attributeVal: "US Sheetfed Coated V2",
       },
     ],
   },
@@ -42,52 +44,56 @@ let logos = [
     image: LogoTwoA,
     imageDesktop: LogoTwoA,
     additionalImages: [LogoTwoB, LogoTwoC, LogoTwoD],
+    imageTitle: "Keycards",
+    imageSubtitle: "Central Hostels",
     attributes: [
       {
         attribute: "Software",
-        attributeVal: "Software Val",
+        attributeVal: "Illustrator",
       },
       {
         attribute: "Trim Size (Inches)",
-        attributeVal: "Trim Size Val",
+        attributeVal: "3.39'' x 2.14''",
       },
       {
         attribute: "Font",
-        attributeVal: "Font Val",
+        attributeVal: "Rockwell Std",
       },
       {
         attribute: "Colors",
-        attributeVal: "Colors Val",
+        attributeVal: "CMYK, 1 Spot Color (Dieline Plate)",
       },
       {
         attribute: "Color Profile",
-        attributeVal: "Color Profile Val",
+        attributeVal: "US Sheetfed Coated V2",
       },
     ],
   },
   {
     image: LogoThree,
     imageDesktop: LogoThree,
+    imageTitle: "Logo",
+    imageSubtitle: "Recording Studio",
     attributes: [
       {
         attribute: "Software",
-        attributeVal: "Software Val",
+        attributeVal: "Illustrator",
       },
       {
         attribute: "Trim Size (Inches)",
-        attributeVal: "Trim Size Val",
+        attributeVal: "8.5'' x 11''",
       },
       {
         attribute: "Font",
-        attributeVal: "Font Val",
+        attributeVal: "Coquette",
       },
       {
         attribute: "Colors",
-        attributeVal: "Colors Val",
+        attributeVal: "CMYK",
       },
       {
         attribute: "Color Profile",
-        attributeVal: "Color Profile Val",
+        attributeVal: "US Web Coated (SWOP) V2",
       },
     ],
   },

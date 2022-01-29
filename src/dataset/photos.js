@@ -23,6 +23,8 @@ let photos = [
   {
     image: imageOneMobile,
     imageDesktop: imageOneDesktop,
+    imageTitle: "Title",
+    imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {
         attribute: "Lens",
@@ -57,6 +59,8 @@ let photos = [
   {
     image: imageTwoMobile,
     imageDesktop: imageTwoDesktop,
+    imageTitle: "Title",
+    imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {
         attribute: "Lens",
@@ -91,6 +95,8 @@ let photos = [
   {
     image: imageThreeMobile,
     imageDesktop: imageThreeDesktop,
+    imageTitle: "Title",
+    imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {
         attribute: "Lens",
@@ -127,6 +133,8 @@ let photos = [
     imageDesktop: imageFourDesktop,
     additionalImages: [imageFourAMobile, imageFourBMobile],
     additionalImagesDesktop: [imageFourADesktop, imageFourBDesktop],
+    imageTitle: "Title",
+    imageSubtitle: "Canon EOS 2000D",
     attributes: [
       {
         attribute: "Lens",

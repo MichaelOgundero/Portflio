@@ -8,42 +8,40 @@ let pageDesigns = [
   {
     image: pageDesignOne,
     imageDesktop: pageDesignOne,
+    imageTitle: "Form",
+    imageSubtitle: "Applecross Dental",
     attributes: [
       {
         attribute: "Software",
-        attributeVal: "Software Val",
+        attributeVal: "InDesign",
       },
       {
         attribute: "Print Media Type",
-        attributeVal: "Print Media Type Val",
+        attributeVal: "Form",
       },
       {
         attribute: "Trim Size (Inches)",
-        attributeVal: "Trim Size Val",
-      },
-      {
-        attribute: "Resolution (PPI)",
-        attributeVal: "Resolution",
+        attributeVal: "8.5'' x 11''",
       },
       {
         attribute: "Colors",
-        attributeVal: "Colors Val",
+        attributeVal: "Greyscale",
       },
       {
         attribute: "Color Profile",
-        attributeVal: "Color Profile Val",
+        attributeVal: "US Sheetfed Uncoated v2",
       },
       {
         attribute: "Font",
-        attributeVal: "Font Val",
+        attributeVal: "Futura PT",
       },
       {
         attribute: "Margins (Inches)",
-        attributeVal: "Margins Val",
+        attributeVal: "1''",
       },
       {
         attribute: "Bleed (Inches)",
-        attributeVal: "Bleed Val",
+        attributeVal: "None",
       },
     ],
   },
@@ -51,84 +49,88 @@ let pageDesigns = [
     image: pageDesignTwoA,
     imageDesktop: pageDesignTwoA,
     additionalImages: [pageDesignTwoB, pageDesignTwoC],
+    imageTitle: "Movie Poster",
+    imageSubtitle: "Grand Budapest Hotel",
     attributes: [
       {
         attribute: "Software",
-        attributeVal: "Software Val",
+        attributeVal: "Photoshop and InDesign",
       },
       {
         attribute: "Print Media Type",
-        attributeVal: "Print Media Type Val",
+        attributeVal: "Movie Poster",
       },
       {
         attribute: "Trim Size (Inches)",
-        attributeVal: "Trim Size Val",
+        attributeVal: "22'' x 34''",
       },
       {
         attribute: "Resolution (PPI)",
-        attributeVal: "Resolution",
+        attributeVal: "46 PPI (Approx 75 in viewing distance)",
       },
       {
         attribute: "Colors",
-        attributeVal: "Colors Val",
+        attributeVal: "RGB",
       },
       {
         attribute: "Color Profile",
-        attributeVal: "Color Profile Val",
+        attributeVal: "Adobe RGB (1998)",
       },
       {
         attribute: "Font",
-        attributeVal: "Font Val",
+        attributeVal: "Jubilat and New Hero",
       },
       {
         attribute: "Margins (Inches)",
-        attributeVal: "Margins Val",
+        attributeVal: "1''",
       },
       {
         attribute: "Bleed (Inches)",
-        attributeVal: "Bleed Val",
+        attributeVal: "0.25''",
       },
     ],
   },
   {
     image: pageDesignThree,
     imageDesktop: pageDesignThree,
+    imageTitle: "Menu",
+    imageSubtitle: "Food Truck",
     attributes: [
       {
         attribute: "Software",
-        attributeVal: "Software Val",
+        attributeVal: "InDesign",
       },
       {
         attribute: "Print Media Type",
-        attributeVal: "Print Media Type Val",
+        attributeVal: "Menu",
       },
       {
         attribute: "Trim Size (Inches)",
-        attributeVal: "Trim Size Val",
+        attributeVal: "84'' x 36''",
       },
       {
         attribute: "Resolution (PPI)",
-        attributeVal: "Resolution",
+        attributeVal: "150",
       },
       {
         attribute: "Colors",
-        attributeVal: "Colors Val",
+        attributeVal: "CMYK",
       },
       {
         attribute: "Color Profile",
-        attributeVal: "Color Profile Val",
+        attributeVal: "US Sheetfed Coated V2",
       },
       {
         attribute: "Font",
-        attributeVal: "Font Val",
+        attributeVal: "Halcom",
       },
       {
         attribute: "Margins (Inches)",
-        attributeVal: "Margins Val",
+        attributeVal: "1.5'' (L & R), 0.5'' (T & B)",
       },
       {
         attribute: "Bleed (Inches)",
-        attributeVal: "Bleed Val",
+        attributeVal: "0.25''",
       },
     ],
   },
